@@ -1,0 +1,12 @@
+# WeChat DevTools 私有配置（含开发者个人设置）
+project.private.config.json
+
+# 系统文件
+**/desktop.ini
+Thumbs.db
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+*.swo

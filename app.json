@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/recognize/recognize",
+    "pages/recognize-result/recognize-result",
+    "pages/migrate/migrate",
+    "pages/migrate-result/migrate-result",
+    "pages/calligraphy/calligraphy",
+    "pages/mine/mine",
+    "pages/debug/debug",
+    "pages/shop/shop",
+    "pages/denoise/denoise",
+    "pages/practice/practice",
+    "pages/history/history"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F4F0",
+    "navigationBarTitleText": "智绘藏韵",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#F6F4F0"
+  },
+  "tabBar": {
+    "custom": true,
+    "color": "#A0A0A0",
+    "selectedColor": "#1C1C1E",
+    "backgroundColor": "#F6F4F0",
+    "borderStyle": "white",
+    "list": [
+      { "pagePath": "pages/index/index", "text": "首页" },
+      { "pagePath": "pages/recognize/recognize", "text": "识别" },
+      { "pagePath": "pages/migrate/migrate", "text": "迁移" },
+      { "pagePath": "pages/calligraphy/calligraphy", "text": "文创" },
+      { "pagePath": "pages/mine/mine", "text": "我的" }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
